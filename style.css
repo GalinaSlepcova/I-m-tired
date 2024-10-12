@@ -1,5 +1,21 @@
-.navigation {
+@font-face {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    src: url('./fonts/IBMPlexMono-Regular.ttf');
+}
+@font-face {
+    font-family: "IBM Plex Mono";
+    font-weight: 700;
+    src: url('./fonts/IBMPlexMono-Regular.ttf');
+}
 
+body {
+    background-color: #FFC2E6;
+}
+
+
+.navigation {
+    text-align: center;
 }
 
 .navigation li {
