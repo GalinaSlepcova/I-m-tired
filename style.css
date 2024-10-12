@@ -14,8 +14,13 @@ html {
 }
 
 body {
-    background-color: #FFC2E6;
     font-family: 'IBM Plex Mono', sans-serif;
+}
+
+header {
+    width: 1024px;
+    height: 768px;
+    background-color: rgba(255, 194, 230, 1);
 }
 
 
@@ -41,4 +46,15 @@ body {
 
 .activeLink {
     border: 1px solid #353430;
+}
+
+h1 {
+    width: 759px;
+    height: 130px;
+    top: 319px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 129.53px;
+    display: flex;
 }
