@@ -1,0 +1,18 @@
+.navigation {
+
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #353430;
+    font-family: IBM Plex Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
