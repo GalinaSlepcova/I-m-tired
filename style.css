@@ -13,6 +13,7 @@ body {
     font-family: 'IBM Plex Mono', sans-serif;
 }
 
+
 .navigation {
     display: flex;
     justify-content: center;
@@ -36,6 +37,22 @@ body {
 .activeLink {
     border: 1px solid #353430;
 }
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.items-flexibility {
+    display: flex;
+    
+  }
 
 .textcols {
 	display: flex;
