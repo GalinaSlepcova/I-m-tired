@@ -11,31 +11,36 @@
 
 body {
     font-family: 'IBM Plex Mono', sans-serif;
-    background-color:#FFF1F7;
+    background: #FFF1F7;
+
 
 }
+
+.container {
+
+}
+
 
 header {
     width: 1024px;
     height: 768px;
-    gap: 0px;
-    opacity: 0px;
+    position: relative;
+    box-sizing: border-box;
+
 }
 
-.image-container {
-    background-image: url("images/header 1.png");
-    width: 1228.8px;
-    height: 768px;
-    left: -102px;
-    gap: 0px;
-    opacity: 0px;
+.image {
+    background-image: url("img/header 1.png");
+    background-repeat: no-repeat;
 }
 
+.bg-center {
+    background-position: center;
+}
 .navigation {
     display: flex;
     justify-content: center;
     gap: 10px;
-    position: relative;
 }
 
 .navigation li {
@@ -57,19 +62,44 @@ header {
 }
 
 h1 {
-    font-family: IBM Plex Mono;
+    font-family: 'IBM Plex Mono';
     font-size: 157px;
     font-weight: 700;
     line-height: 129.53px;
     text-align: left;
     color: #FFC2E6;
-    position: relative;
+    position: absolute;
 
 
 }
 
 .title {
+    width: 759px;
+    height: 130px;
+    top: 319px;
     text-shadow: 4px 4px 0px 0px #FF0070;
+    position: absolute;
+}
+
+div.rectangle {
+    width: 491px;
+    height: 70px;
+    top: 563px;
+    left: 513px;
+    background: #FF8DCB;
+    position: absolute;
+
+}
+
+.rectangle {
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    background: #353430;
+    position: absolute;
+
 }
 
 main {
