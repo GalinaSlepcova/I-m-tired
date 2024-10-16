@@ -15,10 +15,27 @@ body {
 
 }
 
+header {
+    width: 1024px;
+    height: 768px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.image-container {
+    background-image: url("images/header 1.png");
+    width: 1228.8px;
+    height: 768px;
+    left: -102px;
+    gap: 0px;
+    opacity: 0px;
+}
+
 .navigation {
     display: flex;
     justify-content: center;
     gap: 10px;
+    position: relative;
 }
 
 .navigation li {
@@ -45,26 +62,15 @@ h1 {
     font-weight: 700;
     line-height: 129.53px;
     text-align: left;
-    color: #FF8DCB;
+    color: #FFC2E6;
+    position: relative;
+
 
 }
 
 .title {
-    box-shadow: 4px 4px 0px 0px #FF0070;
-
+    text-shadow: 4px 4px 0px 0px #FF0070;
 }
-
-
-.position {
-    position: absolute;
-    font-family: IBM Plex Mono;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    text-align: left;
-
-}
-
 
 main {
     width: 1024px;
@@ -72,9 +78,7 @@ main {
     top: 828px;
     gap: 0px;
     opacity: 0px;
-
 }
-
 
 .textcols {
 	display: flex;
@@ -84,11 +88,7 @@ main {
 .textcols-item {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 100%;
 	flex: 1;
-}
-.textcols-item + .textcols-item {
-	margin-left: 5%;
 }
 
 
