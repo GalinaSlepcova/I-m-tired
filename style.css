@@ -11,32 +11,8 @@
 
 body {
     font-family: 'IBM Plex Mono', sans-serif;
-    background: #FFF1F7;
-
-
 }
 
-.container {
-
-}
-
-
-header {
-    width: 1024px;
-    height: 768px;
-    position: relative;
-    box-sizing: border-box;
-
-}
-
-.image {
-    background-image: url("img/header 1.png");
-    background-repeat: no-repeat;
-}
-
-.bg-center {
-    background-position: center;
-}
 .navigation {
     display: flex;
     justify-content: center;
@@ -59,55 +35,6 @@ header {
 
 .activeLink {
     border: 1px solid #353430;
-}
-
-h1 {
-    font-family: 'IBM Plex Mono';
-    font-size: 157px;
-    font-weight: 700;
-    line-height: 129.53px;
-    text-align: left;
-    color: #FFC2E6;
-    position: absolute;
-
-
-}
-
-.title {
-    width: 759px;
-    height: 130px;
-    top: 319px;
-    text-shadow: 4px 4px 0px 0px #FF0070;
-    position: absolute;
-}
-
-div.rectangle {
-    width: 491px;
-    height: 70px;
-    top: 563px;
-    left: 513px;
-    background: #FF8DCB;
-    position: absolute;
-
-}
-
-.rectangle {
-    font-family: 'IBM Plex Mono';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 23.4px;
-    text-align: left;
-    background: #353430;
-    position: absolute;
-
-}
-
-main {
-    width: 1024px;
-    height: 3352px;
-    top: 828px;
-    gap: 0px;
-    opacity: 0px;
 }
 
 .textcols {
